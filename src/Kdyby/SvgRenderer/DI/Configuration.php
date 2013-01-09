@@ -16,7 +16,6 @@ use Kdyby\Extension\Curl\CurlException;
 use Nette;
 use Nette\Http\Url;
 use Nette\Diagnostics\Debugger;
-use Kdyby\Extension\SvgRenderer\SvgImage;
 use Kdyby\Extension\SvgRenderer\InvalidStateException;
 
 

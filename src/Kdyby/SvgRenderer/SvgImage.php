@@ -14,7 +14,6 @@ use DOMDocument;
 use DOMXPath;
 use Kdyby;
 use Nette;
-use Kdyby\Extension\SvgRenderer\DI\Configuration;
 use Nette\Utils\Strings;
 
 
