@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the file license.txt that was distributed with this source code.
  */
 
-namespace Kdyby\Extension\SvgRenderer\DI;
+namespace Kdyby\SvgRenderer\DI;
 
 use Kdyby;
 use Nette;
@@ -38,21 +38,21 @@ class SvgRendererExtension extends Nette\Config\CompilerExtension
 		$config = $this->getConfig($this->defaults);
 
 		$builder->addDefinition($this->prefix('config'))
-			->setClass('Kdyby\Extension\SvgRenderer\DI\Configuration')
+			->setClass('Kdyby\SvgRenderer\DI\Configuration')
 			->addSetup('$provider', array($config['provider']))
 			->addSetup('$apiKey', array($config['apiKey']));
 
 		$builder->addDefinition($this->prefix('storage'))
-			->setClass('Kdyby\Extension\SvgRenderer\SvgStorage', array('%tempDir%/cache'));
+			->setClass('Kdyby\SvgRenderer\SvgStorage', array('%tempDir%/cache'));
 
 		$generator = $builder->addDefinition($this->prefix('renderer'))
-			->setClass('Kdyby\Extension\SvgRenderer\IRenderer');
+			->setClass('Kdyby\SvgRenderer\IRenderer');
 
 		if (!empty($config['apiKey'])) {
-			$generator->setFactory('Kdyby\Extension\SvgRenderer\RemoteRenderer');
+			$generator->setFactory('Kdyby\SvgRenderer\RemoteRenderer');
 
 		} else {
-			$generator->setFactory('Kdyby\Extension\SvgRenderer\InkscapeRenderer');
+			$generator->setFactory('Kdyby\SvgRenderer\InkscapeRenderer');
 		}
 	}
 

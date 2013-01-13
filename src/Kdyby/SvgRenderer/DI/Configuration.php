@@ -8,15 +8,15 @@
  * For the full copyright and license information, please view the file license.txt that was distributed with this source code.
  */
 
-namespace Kdyby\Extension\SvgRenderer\DI;
+namespace Kdyby\SvgRenderer\DI;
 
 use Kdyby;
-use Kdyby\Extension\Curl\Request;
-use Kdyby\Extension\Curl\CurlException;
+use Kdyby\Curl\Request;
+use Kdyby\Curl\CurlException;
 use Nette;
 use Nette\Http\Url;
 use Nette\Diagnostics\Debugger;
-use Kdyby\Extension\SvgRenderer\InvalidStateException;
+use Kdyby\SvgRenderer\InvalidStateException;
 
 
 
