@@ -1,35 +1,35 @@
 {
-    "name":"kdyby/svg-renderer",
-    "type":"library",
-    "description":"SvgRenderer is Inkscape wrapper for Nette Framework",
-    "keywords":["nette", "kdyby", "svg"],
-    "homepage":"http://kdyby.org",
-    "license":["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
-    "authors":[
-        {
-            "name":"Filip Procházka",
-            "homepage":"http://filip-prochazka.com"
-        }
-    ],
-    "support":{
-        "email":"filip@prochazka.su",
-        "issues":"https://github.com/kdyby/svg-renderer/issues"
-    },
-    "require":{
-        "nette/nette":"*"
-    },
+	"name": "kdyby/svg-renderer",
+	"type": "library",
+	"description": "SvgRenderer is Inkscape wrapper for Nette Framework",
+	"keywords": ["nette", "kdyby", "svg"],
+	"homepage": "http://kdyby.org",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Filip Procházka",
+			"homepage": "http://filip-prochazka.com"
+		}
+	],
+	"support": {
+		"email": "filip@prochazka.su",
+		"issues": "https://github.com/kdyby/svg-renderer/issues"
+	},
+	"require": {
+		"nette/nette": "*"
+	},
 	"require-dev": {
 		"nette/tester": "@dev"
 	},
-    "suggest": {
-        "kdyby/curl": "It's required for using a remote SvnRenderer provider."
-    },
-    "autoload":{
-        "psr-0":{
-            "Kdyby\\SvgRenderer":"src/"
-        },
-        "classmap":[
-            "src/Kdyby/SvgRenderer/exceptions.php"
-        ]
-    }
+	"suggest": {
+		"kdyby/curl": "It's required for using a remote SvnRenderer provider."
+	},
+	"autoload": {
+		"psr-0": {
+			"Kdyby\\SvgRenderer": "src/"
+		},
+		"classmap": [
+			"src/Kdyby/SvgRenderer/exceptions.php"
+		]
+	}
 }
