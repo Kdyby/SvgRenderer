@@ -9,6 +9,7 @@
  */
 
 namespace Kdyby\SvgRenderer\DI;
+
 use Kdyby;
 use Nette;
 use Nette\Utils\Validators;
@@ -42,7 +43,7 @@ class SvgRendererExtension extends Nette\Config\CompilerExtension
 			->addSetup('$apiKey', array($config['apiKey']));
 
 		$builder->addDefinition($this->prefix('storage'))
-			->setClass('Kdyby\SvgRenderer\SvgStorage', array('%tempDir%/cache'));
+			->setClass('Kdyby\SvgRenderer\SvgStorage', array($builder->expand('%tempDir%/cache')));
 
 		$generator = $builder->addDefinition($this->prefix('renderer'))
 			->setClass('Kdyby\SvgRenderer\IRenderer');
