@@ -2,7 +2,7 @@ Kdyby/SvgRenderer
 ======
 
 [![Build Status](https://travis-ci.org/Kdyby/SvgRenderer.svg?branch=master)](https://travis-ci.org/Kdyby/SvgRenderer)
-[![Downloads this Month](https://img.shields.io/packagist/dm/Kdyby/SvgRenderer.svg)](https://packagist.org/packages/Kdyby/SvgRenderer)
+[![Downloads this Month](https://img.shields.io/packagist/dm/kdyby/svg-renderer.svg)](https://packagist.org/packages/kdyby/svg-renderer)
 [![Latest stable](https://img.shields.io/packagist/v/kdyby/svg-renderer.svg)](https://packagist.org/packages/kdyby/svg-renderer)
 
 
