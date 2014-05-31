@@ -1,5 +1,9 @@
-Kdyby/SvgRenderer [![Build Status](https://secure.travis-ci.org/Kdyby/SvgRenderer.png?branch=master)](http://travis-ci.org/Kdyby/SvgRenderer)
-===========================
+Kdyby/SvgRenderer
+======
+
+[![Build Status](https://travis-ci.org/Kdyby/SvgRenderer.svg?branch=master)](https://travis-ci.org/Kdyby/SvgRenderer)
+[![Downloads this Month](https://img.shields.io/packagist/dm/Kdyby/SvgRenderer.svg)](https://packagist.org/packages/Kdyby/SvgRenderer)
+[![Latest stable](img.shields.io/packagist/v/Kdyby/SvgRenderer.svg)](https://packagist.org/packages/Kdyby/SvgRenderer)
 
 
 Requirements
