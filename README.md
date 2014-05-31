@@ -3,7 +3,7 @@ Kdyby/SvgRenderer
 
 [![Build Status](https://travis-ci.org/Kdyby/SvgRenderer.svg?branch=master)](https://travis-ci.org/Kdyby/SvgRenderer)
 [![Downloads this Month](https://img.shields.io/packagist/dm/Kdyby/SvgRenderer.svg)](https://packagist.org/packages/Kdyby/SvgRenderer)
-[![Latest stable](https://img.shields.io/packagist/v/Kdyby/SvgRenderer.svg)](https://packagist.org/packages/Kdyby/SvgRenderer)
+[![Latest stable](https://img.shields.io/packagist/v/kdyby/svg-renderer.svg)](https://packagist.org/packages/kdyby/svg-renderer)
 
 
 Requirements
@@ -23,6 +23,12 @@ The best way to install Kdyby/SvgRenderer is using  [Composer](http://getcompose
 ```sh
 $ composer require kdyby/svg-renderer:@dev
 ```
+
+
+Documentation
+------------
+
+Lear more in the [documentation](https://github.com/Kdyby/SvgRenderer/blob/master/docs/en/index.md).
 
 
 -----
