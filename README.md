@@ -28,7 +28,7 @@ $ composer require kdyby/svg-renderer:@dev
 Documentation
 ------------
 
-Lear more in the [documentation](https://github.com/Kdyby/SvgRenderer/blob/master/docs/en/index.md).
+Learn more in the [documentation](https://github.com/Kdyby/SvgRenderer/blob/master/docs/en/index.md).
 
 
 -----
